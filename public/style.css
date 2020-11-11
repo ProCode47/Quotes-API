@@ -1,0 +1,176 @@
+body {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  width: auto;
+  height: 30px;
+  padding: 15px 15px;
+  background-color: white;
+}
+header > text {
+  font-size: x-large;
+  color: rgb(0, 255, 0);
+}
+
+header > a > button {
+  width: 120px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  height: 40px;
+  border-radius: 30px 30px;
+  padding: 2px 2px;
+  border-style: none;
+  float: right;
+  background-color: rgb(86, 252, 86);
+  color: white;
+}
+.intro {
+  background-image: url("../undraw_Chat_re_re1u.svg");
+  background-repeat: no-repeat;
+  background-size: 56%;
+  width: 100%;
+  /* min-width: 1000px; */
+  height: 45vw;
+}
+.intro-text {
+  position: absolute;
+  margin-top: 5%;
+  right: 2.5%;
+}
+.intro-text > h1 {
+  font-size: 4vw;
+  text-align: right;
+  padding-right: 7vw;
+  margin-left: 30px;
+}
+
+.intro-text > h2 {
+  margin-left: 30px;
+  font-size: 2.5vw;
+  text-align: right;
+  padding-right: 9vw;
+}
+.main {
+  color: #24fd27;
+}
+.main2 {
+  color: rgb(0, 255, 0);
+}
+
+p {
+  text-align: center;
+  font-size: 4vw;
+  font-style: oblique;
+  font-weight: bold;
+}
+.motivation {
+  background-image: url("../undraw_healthy_habit_bh5w.svg");
+  background-repeat: no-repeat;
+  background-size: 56%;
+  background-position-x: right;
+  width: 100%;
+  height: 40vw;
+}
+.motivation > text {
+  position: relative;
+  top: 42%;
+  left: 0px;
+  font-size: 4vw;
+  text-align: left;
+  padding-right: 7vw;
+  margin-left: 30px;
+}
+.success {
+  margin-top: 80px;
+  background-image: url("../undraw_make_it_rain_iwk4.svg");
+  background-repeat: no-repeat;
+  background-size: 56%;
+  background-position-x: left;
+  width: 100%;
+  height: 40vw;
+}
+.success > text {
+  position: relative;
+  top: 50%;
+  right: 2%;
+  font-size: 4vw;
+  float: right;
+  text-align: right;
+  padding-right: 7vw;
+  margin-left: 30px;
+}
+.love {
+  margin-top: 80px;
+  background-image: url("../undraw_love_xfcv.svg");
+  background-repeat: no-repeat;
+  background-size: 56%;
+  background-position-x: right;
+  width: 100%;
+  height: 45vw;
+}
+.love > text {
+  position: relative;
+  top: 45%;
+  left: 10%;
+  font-size: 4vw;
+  text-align: left;
+  padding-right: 7vw;
+  margin-left: 30px;
+}
+.dp {
+  width: 65vw;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.offers {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offers > ul {
+  display: block;
+  list-style: none;
+}
+.offers > ul > li {
+  font-size: 3.5vw;
+  margin-bottom: 10%;
+}
+
+.fa-check-circle {
+  color: green;
+}
+
+.launch {
+  width: 40vw;
+  font-size: 3.5vw;
+  height: 12vw;
+  border-radius: 70px 70px;
+  padding: 2px 2px;
+  border-style: none;
+  background-color: green;
+  color: white;
+
+}
+.fontx {
+  font-size: 4vw;
+  font-weight: lighter;
+  
+}
+#credit{
+  margin-top:180px;
+  margin-bottom:15px
+}
+#credit > a{
+  text-decoration:none;
+  color:  rgb(26, 26, 255);
+  font-size: 3.5vw;
+}
+.fa-heart{
+  color: red;
+}
+
