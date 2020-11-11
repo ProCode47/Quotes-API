@@ -4,6 +4,7 @@ const mongoose = require("mongoose");
 const config = require("./config/config");
 const cors = require("cors");
 const path = require("path");
+const PORT = process.env.port || 3000;
 
 //Configuring Express
 app.use(express.json());
@@ -34,6 +35,6 @@ app.use("/quotes", allRoutes);
 // app.use("/admin", adminRoutes);
 
 //Listen
-app.listen(3000, () => {
+app.listen(PORT, () => {
   console.log("Server is running...");
 });
