@@ -124,10 +124,11 @@ p {
 }
 .center {
   display: flex;
+  height: fit-content;
   justify-content: center;
 }
 .offers {
-  margin-top: 35px;
+  margin-top: 1vw;
   display: flex;
   justify-content: center;
   align-items: center;
