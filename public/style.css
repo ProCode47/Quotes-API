@@ -121,6 +121,7 @@ p {
 }
 .dp {
   width: 65vw;
+  
 }
 .center {
   display: flex;
@@ -128,12 +129,13 @@ p {
   justify-content: center;
 }
 .offers {
-  margin-top: 1vw;
   display: flex;
+  flex-direction:column;
   justify-content: center;
   align-items: center;
 }
 .offers > ul {
+  padding-top: 3vw;
   display: block;
   list-style: none;
 }
@@ -160,10 +162,11 @@ p {
 .fontx {
   font-size: 4vw;
   font-weight: lighter;
+  margin-bottom: 0px;
   
 }
 #credit{
-  margin-top:180px;
+  margin-top:55px;
   margin-bottom:15px
 }
 #credit > a{
