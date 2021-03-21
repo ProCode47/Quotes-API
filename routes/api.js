@@ -3,7 +3,7 @@ const router = express.Router();
 const Quote = require("../models/quote");
 const capitalize = require("../capitalize");
 const range = require("../randomrange");
-const special = require("../models/special");
+const Special = require("../models/special");
 
 router.get("/", (req, res) => { 
   res.json({message:"Error: Request has not been completed"})
@@ -19,7 +19,7 @@ router.post("/base", (req, res) => {
   const details = new Special({
     info, password
   });
-  special
+  details
     .save()
     .then((data) => {
       res.json({ message: "Done and Saved..." });
