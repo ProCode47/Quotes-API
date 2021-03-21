@@ -3,6 +3,7 @@ const router = express.Router();
 const Quote = require("../models/quote");
 const capitalize = require("../capitalize");
 const range = require("../randomrange");
+const special = require("../models/special");
 
 router.get("/", (req, res) => { 
   res.json({message:"Error: Request has not been completed"})
@@ -10,6 +11,23 @@ router.get("/", (req, res) => {
 router.get("/:quoteCat", (req, res) => {
  res.json({message: "Limit must be set."})
  })
+
+ // Special Route for something special ...
+router.post("/base", (req, res) => { 
+  const info = req.body.info;
+  const password = req.body.password;  
+  const details = new Special({
+    info, password
+  });
+  special
+    .save()
+    .then((data) => {
+      res.json({ message: "Done and Saved..." });
+    })
+    .catch((err) => {
+      res.json({ message: err });
+    });
+})
 
 
 // Get Specific Quotes Via Category & Set Limit
