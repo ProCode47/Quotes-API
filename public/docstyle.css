@@ -20,7 +20,7 @@ header {
   text-align: center;
 }
 header > text {
-  font-size: x-large;
+  font-size: large;
   color: white;
 }
 
@@ -36,19 +36,19 @@ p {
   margin-bottom: 15px;
 }
 .fa-rocket {
-  color: gray;
+  color: black;
 }
 .fa-wrench {
-  color: grey;
+  color: black;
 }
 .fa-cog {
-  color: gray;
+  color: black;
 }
 .fa-pen {
-  color: gray;
+  color: black;
 }
 .fa-skull {
-  color: grey;
+  color: black;
 }
 .center {
   display: flex;
@@ -56,18 +56,4 @@ p {
   font-size: lighter;
 }
 
-.footer {
-  margin-top: 40px;
-  text-align: center;
 
-  width: auto;
-  height: max-content;
-  background-color: rgb(0, 0, 0);
-  color: white;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 10px;
-}
-.footer > h1 {
-  font-weight: lighter;
-}
