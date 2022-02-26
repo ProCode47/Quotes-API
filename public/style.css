@@ -88,16 +88,18 @@ p {
   margin-left: 30px;
 }
 .success {
+  position: relative;
   margin-top: 80px;
   background-image: url("../undraw_make_it_rain_iwk4.svg");
   background-repeat: no-repeat;
-  background-size: 56%;
+  background-size: 50%;
   background-position-x: left;
   width: 100%;
   height: 40vw;
+
 }
 .success > text {
-  position: relative;
+  position: absolute;
   top: 50%;
   right: 2%;
   font-size: 4vw;
@@ -107,16 +109,17 @@ p {
   margin-left: 30px;
 }
 .love {
+  position: relative;
   margin-top: 80px;
   background-image: url("../undraw_love_xfcv.svg");
   background-repeat: no-repeat;
-  background-size: 56%;
+  background-size: 50%;
   background-position-x: right;
   width: 100%;
   height: 45vw;
 }
 .love > text {
-  position: relative;
+  position: absolute;
   top: 45%;
   left: 10%;
   font-size: 4vw;
@@ -160,7 +163,7 @@ p {
   border-radius: 70px 70px;
   padding: 2px 2px;
   border-style: none;
-  background-color: green;
+  background-color: #56FC56!important;
   color: white;
   cursor: pointer;
 
